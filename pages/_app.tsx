@@ -11,15 +11,15 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <header className="h-20 p-6 mb-14 flex justify-between flex-row items-center">
         <Image src="" alt="Paze" />
-        <nav className="flex">
+        <nav className="flex font-bold">
           <ul className="flex">
-            <li className="mr-6 underline">
+            <li className="mr-6 text-[#5c5cff] hover:underline">
               <Link href="/">Home</Link>
             </li>
-            <li className="mr-6 underline">
+            <li className="mr-6 text-[#5c5cff] hover:underline">
               <Link href="/">The Story</Link>
             </li>
-            <li className="mr-6 underline">
+            <li className="mr-6 text-[#5c5cff] hover:underline">
               <Link href="/">The Tips</Link>
             </li>
             <li className="mr-6 self-center">

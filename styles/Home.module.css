@@ -6,3 +6,7 @@
   padding-top: 16px;
   padding-bottom: 4px;
 }
+
+.bigger-gap {
+  gap: 28px;
+}

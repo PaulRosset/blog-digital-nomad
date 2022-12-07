@@ -36,7 +36,10 @@ export default function Home() {
               <OverviewBlogPost />
             </ul>
             <div className="m-auto w-full text-center">
-              <Link className="underline" href="/board">
+              <Link
+                className="py-5 px-6 text-[#5c5cff] rounded-full border-2 font-bold ease-linear duration-200 hover:border-[#5c5cff]"
+                href="/board"
+              >
                 See more blog posts...
               </Link>
             </div>

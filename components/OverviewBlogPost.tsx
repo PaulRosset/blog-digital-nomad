@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function OverviewBlogPost() {
   return (
     <Link href="/12">
-      <li className=" border rounded-md ease-linear duration-200 hover:cursor-pointer hover:shadow-md">
+      <li className="border rounded-md ease-linear duration-200 hover:cursor-pointer hover:shadow-md">
         <img
           className="rounded-t-md"
           src="https://images.unsplash.com/photo-1528837516156-0a7225a43641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw2MzkyMXwwfDF8c2VhcmNofDh8fGljZWxhbmR8ZW58MHx8fHwxNjY3NjkyMzIw&ixlib=rb-4.0.3&q=80&w=1200"
